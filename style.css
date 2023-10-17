@@ -1,0 +1,164 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: rgb(209, 69, 50);
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+
+.h1{
+color: aquamarine;
+}
+
+body, h1, h2, h6, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+  }
+  
+  .header h6 {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .news {
+    width: 70%; 
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0%;
+  }
+  
+  .article {
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .article img {
+    max-width: 100%;
+    margin-top: 0%;
+  }
+  
+  .articlecontent {
+    padding: 10px;
+  }
+  
+  .articlecontent h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .articlecontent p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .article.big {
+    flex-basis: 100%;
+    margin-top: 0%;
+  }
+  
+  .article.medium {
+    flex-basis: calc(50% - 10px);
+  }
+  
+ 
+  .sidebar {
+    width: 30%; 
+    padding: 20px;
+    box-sizing: border-box;
+  
+  }
+  
+  .pins {
+    margin: 10px 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-sizing: content-box;
+    background-color: white;
+    width: 110%;
+
+
+  }
+  
+  .pins h2 {
+    font-size: 18px;
+  }
+  
+  .pins img {
+    max-width: 100%;
+
+  }
+  
+
+  .footer {
+    background-color: rgb(209, 69, 50);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .bottomlinks {
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .bottomlinks h4 {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .bottomlinks ul {
+    list-style: none;
+    color: black;
+  }
+  
+  .bottomlinks li {
+    margin: 5px 0;
+  }
+  
+  .bottomlinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+  }
